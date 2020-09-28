@@ -91,6 +91,10 @@ hr {
   color: #ffffff;
 }
 
+.list.mail-tel {
+  margin-left: auto;
+}
+
 .link-nav:hover,
 .link-nav:focus,
 .link-nav:active {
@@ -115,10 +119,6 @@ hr {
   background-color: #2196F3;
   border-radius: 2px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.list.mail-tel {
-  margin-left: auto;
 }
 
 .link-nav.link,
@@ -170,24 +170,6 @@ hr {
   fill: #2196F3;
 }
 
-.list {
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-
-.list .item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.list .filter {
-  align-items: center;
-}
-
-.list .portfolio {
-  flex-wrap: wrap;
-}
-
 .main-title {
   margin-top: 0;
   margin-bottom: 30;
@@ -223,16 +205,6 @@ hr {
   margin-right: 30px;
 }
 
-.main-title-3 {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-block-end: 10px;
-}
-
 .list.advantages::before {
   content: "";
   width: 100%;
@@ -260,6 +232,34 @@ hr {
 
 .list.advantages.astronaut::before {
   background-image: url(../icons/astronaut.svg);
+}
+
+.list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.list .filter {
+  align-items: center;
+}
+
+.list .portfolio {
+  flex-wrap: wrap;
+}
+
+.main-title-3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-block-end: 10px;
 }
 
 .main-text-3 {
