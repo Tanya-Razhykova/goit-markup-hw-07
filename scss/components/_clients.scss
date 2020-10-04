@@ -34,13 +34,11 @@
 }
 
 
-
-.clients-box:not(:last-child) {
-    margin-right: 30px;
-}
-
 .clients-box {
     flex-basis:calc((100% - 30px * 5) / 6)
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .list-clients {
