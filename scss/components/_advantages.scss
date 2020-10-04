@@ -2,10 +2,9 @@
     display: inline-block;
     width: 270px;
     margin-bottom: 94px;
-}
-
-.list.advantages:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .list.advantages::before {
